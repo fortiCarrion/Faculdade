@@ -6,7 +6,7 @@
 #Exercicio 1
 def fibonacci(entrada):
     """Metodo recursivo para retornar o fibonacci dado como parametro"""
-    if entrada == 1 or entrada == 2:
+    if entrada == 0 or entrada == 1:
         return 1
     return fibonacci(entrada-1)+fibonacci(entrada-2)
 
